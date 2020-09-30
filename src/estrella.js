@@ -35,7 +35,7 @@ import { chmod } from "./chmod"
 import * as typeinfo from "./typeinfo"
 import { createBuildConfig } from "./config"
 import { sha1 } from "./hash"
-import * as aux from "./aux"
+import * as aux from "./aux_"
 
 const { dirname, basename } = Path
 

@@ -2,7 +2,7 @@ import { Writable, Readable } from "stream"
 import * as fs from "fs"
 
 import { TYPE } from "./util"
-import * as aux from "./aux"
+import * as aux from "./aux_"
 
 
 export function isReadableStream(s :Readable|Writable|null|undefined) :s is Readable {

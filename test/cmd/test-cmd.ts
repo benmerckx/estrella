@@ -11,7 +11,7 @@ const child_process = require("child_process")
 //   3. call setEstrellaDir with the absolute directory of estrella.js
 //
 import "../../src/global"
-import { setEstrellaDir } from "../../src/aux"
+import { setEstrellaDir } from "../../src/aux_"
 import { startCmd, SignalMode, Signal } from "../../src/exec"
 import { repr } from "../../src/util"
 import { readlines } from "../../src/io"

@@ -1,4 +1,4 @@
-import * as aux from "./aux"
+import * as aux from "./aux_"
 import { stderrStyle } from "./termstyle"
 import { getModulePackageJSON } from "./util"
 import * as typeinfo from "./typeinfo"
